@@ -8,7 +8,7 @@ a = 0
 #print(a)
 b = 1
 while count:
-    print(b)
+    print(b, end=' ')
     b, a = a + b, b
     if b > 1000:
         break
