@@ -7,9 +7,10 @@ count = True
 a = 0
 #print(a)
 b = 1
+print("Fibonacci numbers is:")
 while count:
     print(b, end=' ')
     b, a = a + b, b
-    if b > 1000:
+    if b > 100000:
         break
 a+=1
