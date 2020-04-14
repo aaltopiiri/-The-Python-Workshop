@@ -13,3 +13,11 @@ for employee in employees:
     print("Age:", employee['age'])
     print("Department:", employee['department'])
     print('-' * 23)
+
+orders = {'apple':5, 'orange':3, 'banana':2}
+print(orders.values())
+print(list(orders.keys()))
+print(list(orders.values()))
+
+for tuple in list(orders.items()):
+    print(tuple)
